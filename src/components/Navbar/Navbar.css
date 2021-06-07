@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #7d76ff;
+  box-shadow: 0px 4px 10px 0px black;
+}
+
+.nav img {
+  height: 2rem;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links button {
+  font-family: "Raleway";
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.1rem;
+  color: var(--white);
+}
+
+.nav-links button:hover {
+  background-color: var(--white);
+  box-shadow: 0px 3px 4px 0px black;
+  color: var(--black-elevation-4);
+}
